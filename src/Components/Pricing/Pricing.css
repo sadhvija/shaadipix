@@ -1,0 +1,85 @@
+
+.PriceHeader{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  color:black;
+}
+.Prices{
+  width:400px ;
+  height: auto;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 243, 243);
+  padding: 5px;margin: 20px;
+}
+.Prices .PriceBtn{
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+ background-color: #f3f3f3;
+ color: #808080;
+
+}
+.PriceBtn:active{
+  background-color: #D3AC35 !important;
+  color: #F3F3F3;
+}
+.Pricebox{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+
+
+  
+}
+.pricesMain{
+  width: 100%;
+  column-gap: 30px;
+  border: 16px solid transparent; 
+  border-image: linear-gradient(259.82deg, #D0AA34 33.47%, #A57914 70.76%, #FFFFFF 109.26%);
+  border-image-slice: 1;
+  border-radius: 20px;
+  padding: 30px;
+  clip-path: inset(0 round 15px); 
+}
+.pricesMain button{
+  width: 200px;
+  height: 50px;
+  color: #F3F3F3;
+  background-color: #D3AC35;
+  border-radius:8px ;
+  margin:30px 0 0 10px;
+}
+.BoxPrices h2{
+color: gray;
+}
+.BoxPrices h1{
+ color: #D0AA34;
+  }
+.BoxPrices .time{
+  width: 200px;
+ border-radius: 20px;
+  padding: 10px;
+  background-color: #efd179 ;
+  color: #A57914;
+}
+.Matters img{
+  width: 25px;
+  margin-right: 10px;
+}
+.Matters h2{
+  color: #444444;
+  font-family: cormorant goramond;
+}
+.Matters h5{
+  color: #808080;
+  font-size:16px ;
+  font-family: lato;
+}

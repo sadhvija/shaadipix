@@ -1,0 +1,80 @@
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Mandaps{
+    display: flex;
+    gap: 10px;
+}
+.Mandaps button{
+    padding: 10px;
+    border-radius: 20px;
+  border: none;
+    background-color: rgb(197, 197, 62);
+}
+
+.venu{
+    display: flex;
+    align-items: center;
+
+}
+.venu img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.ramhere {
+    display: flex;
+   
+    padding: 20px;
+  }
+
+  .mandapasBgimages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    max-width: 1200px;
+  }
+  
+
+  .mandap-card {
+    width: 300px; 
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    background: white;
+  }
+  
+  .mandap-card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .mandap-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  .mandap-details {
+    padding-top: 10px;
+  }
+  
+  .mandap-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #D3AC35;
+  }
+  
+  .mandap-details p {
+    font-size: 14px;
+    color: #555;
+  }
+  

@@ -1,0 +1,360 @@
+* *{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+} */
+button{
+    color: #cda434;
+    border:none;
+    background-color: white;
+    font-family: "Cinzel"; 
+}
+#home{
+    background-color: white;
+    color:#CDA434;
+}
+body{
+    background-color: white;
+    /* height: 100vh; */
+    /* width: 100vw ;  */
+    /* overflow:hidden ; */
+}
+.header{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px ;
+    
+}
+.nav{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    background-color: white;
+    color: #CDA434;
+     font-family: cinzel;
+      padding-right: 200px;
+}
+#titl{
+    color: "#CDA434";
+    font-family: "cinzel";
+    margin-right: 200px;
+}
+.navbar{
+    display: "flex";
+    gap: 40px;
+    background-color: "white";
+}
+.banner{
+    background-color: "white";
+    margin-top:80px;
+    margin-bottom:30px;
+}
+.tagline{
+    color: "#cda434";
+     font-size: 13px; 
+     color: #8C7853; 
+     display: block;
+}
+#free{
+    background:linear-gradient(#d4af37,#a37611);
+    background-color:#cda434;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: "Cormorant Garamond";
+    border-radius: 11.16px;
+}
+.Four_cards{
+    display: flex;
+     gap: 20px;
+     justify-content: center;
+     padding-bottom: 100px;
+}
+.cards_container{
+    width: 447px;
+     display: flex;
+      flex-wrap: wrap;
+       gap: 5px;
+       background-color:fffaea;
+}
+#img1{
+    border-radius: 16px;
+     width: 219px;
+      height: 219px
+}
+#img2{
+     border-radius: 16px;
+}
+#cardbox{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     gap:22px 
+}
+p{
+    color:#CDA434;
+    font-family: "cinzel";
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+#tag{
+    font-size: 13px;
+    color: #8C7853;
+    width:454px;
+   
+}
+button:hover{
+    border:none;
+}
+#login{
+    color:#cda434;
+    border:2px solid #cda434;
+    background-color: white;
+}
+#tools{
+    color: #cda434;
+    width:"373px";
+    height:"100px";
+    background-color: blue; 
+    display: flex;
+     width: 373px;
+     background-color: white;
+      gap: 10px
+}
+.cards{
+    display: flex;
+     flex-direction: column;
+      justify-content: flex-start ;
+      align-items:flex-start;
+      width:361px;
+      height:80px
+}
+.accordianset{
+    display: flex;
+    flex-direction: column;
+    gap:15.3px;
+    
+}
+#head{
+    font-size: 16px;
+    font-family: "lora";
+}
+#descript{
+    font-size: 13px;
+    font-family: "lora";
+    color: #8C7853   
+}
+.header2{
+    color: #cda434;
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px
+}
+.contains{
+    display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content:flex-end; 
+     gap: 10px;
+     position: relative;
+}
+.text{
+    display:"flex";
+}
+#cards{
+    border:none;
+    border-radius: 7.26px;
+}
+.horizontal{
+    display: flex;
+     align-items: center;
+      gap: 17.3px;
+        width: 912.9px;
+         justify-content: center;
+          padding-bottom: 17.3px 
+}
+.black_card{
+    width: 223.23px;
+     height: 685.13px;
+     background-color: #2b2b2b;
+    border-radius: 7.26px;
+    border: 0.91px solid #808080;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    position:absolute;
+    top:1350px;
+    left:100px;
+        
+}
+.section{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center 
+}
+.img2{
+    border: none;
+     border-radius: 4.12px
+}
+#part2{
+    display:flex;
+    flex-direction:column;
+    gap:16.1px;
+    justify-content:center;
+    align-items:center;
+    margin-top:16.1px;
+}
+.accordion{
+    color: #808080;
+}
+.accordion-item{
+    background-color: transparent;
+     width: 194.19px ;
+     height:42.15;
+     padding:0px;
+}
+.accordion-body{
+    color:white;
+}
+.accordion-button{
+    width: 194.19px
+}
+#background{
+    color: #808080;
+    font-size: 9.07px;
+     font-family: helvetica;
+      margin: 0px;
+       text-align: left
+}
+#texts{
+    font-size: 11.8px;
+     color: #cda434 
+}
+#part{
+    color: aliceblue; 
+    font-size:11.8px;
+    text-align: left;
+    padding-left:12px; 
+    font-size:11.8px;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-family:helvetica;
+    padding-bottom:0.6px;
+    padding-top:0.6px;
+}
+#part1{
+    color: aliceblue; 
+    font-size:11.8px;
+    text-align: left;
+    padding-left:12px; 
+    font-size:11.8px;
+    font-weight:700;
+    margin-bottom:5px;
+    font-family:helvetica;
+    padding-bottom:0.6px;
+    
+}
+#buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px
+}
+#quality{
+    background-color:#2b2b2b;
+    border:0.91px solid #808080;
+    border-radius:7.26px;
+    font-size:11.8px;
+    font-family:helvetica;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom:5px
+}
+#fast{
+    background-color:#2b2b2b;
+    border:0.91px solid #cda434;
+    border-radius:7.26px;
+    font-size:11.8px;
+    font-family:helvetica;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom:5px
+}
+#qun{
+    color: #808080;
+    font-family: helvetica;
+    font-size: 9.07px;
+}
+#cards_text{
+    display: flex;
+    gap: 15px;
+    
+}
+#small_text{
+    font-size: 9.07px;
+    color:#cda434;
+    padding-left: 20px;
+}
+#time{
+    font-size:9.07px;
+    color: #808080;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.align{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #cda434;
+    border-radius: 7.26px;
+    margin-left: 180px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.numbers{
+    display: flex;
+    gap:7.26px;
+    justify-content: center;
+    margin-left: 15px;
+}
+#generate{
+    background:linear-gradient(#d4af37,#a37611);
+    width:194px;
+    border-radius: 10.13px;
+    height: 36.5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin-left: 15px;
+    align-items: center;
+    
+
+}
+#generate p{
+    color:white;
+   font-size: 18.15px;
+   
+}
+#number_of_images{
+    background-color: #2b2b2b;
+    border: 1px solid  #808080;
+    width:24px;
+    padding: 5px;
+} 

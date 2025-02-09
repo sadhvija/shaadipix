@@ -1,0 +1,76 @@
+
+
+.footer {
+  
+    width: 1165px;
+    height: 400px;
+    background-color: white;
+    color: #c9a660;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Lora;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+ 
+  }
+   #shaadi{
+    color: #d4ae37;
+    font-family: cormorant goramond;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top:30px;
+    margin-left: 70px;
+    
+    text-align: left;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    color: #8c7846;
+  
+
+  }
+  .footer-section p{
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#8c7846;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap:25px;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #8c7853;
+    font-size: 16px;
+  }
+  
+  .social-icons a:hover {
+    text-decoration: underline
+  }
+.location{
+  display: flex;
+  gap:20px
+}
